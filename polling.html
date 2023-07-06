@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voting App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Voting App</h1>
+
+    <div class="question">
+      <p>Question 1: What is your favorite programming language?</p>
+    </div>
+    <ul class="options">
+      <li class="option">
+        <label> <input type="radio" name="answer1" value="a" /> Python </label>
+      </li>
+      <li class="option">
+        <label>
+          <input type="radio" name="answer1" value="b" /> JavaScript
+        </label>
+      </li>
+      <li class="option">
+        <label> <input type="radio" name="answer1" value="c" /> PHP </label>
+      </li>
+      <li class="option">
+        <label> <input type="radio" name="answer1" value="d" /> Swift </label>
+      </li>
+    </ul>
+
+    <div class="question">
+      <p>Question 2: Which is your favorite frontend framework?</p>
+    </div>
+    <ul class="options">
+      <li class="option">
+        <label> <input type="radio" name="answer2" value="a" /> React </label>
+      </li>
+      <li class="option">
+        <label>
+          <input type="radio" name="answer2" value="b" /> Angular
+        </label>
+      </li>
+      <li class="option">
+        <label> <input type="radio" name="answer2" value="c" /> Vue.js </label>
+      </li>
+      <li class="option">
+        <label> <input type="radio" name="answer2" value="d" /> Svelte </label>
+      </li>
+    </ul>
+
+    <div class="question">
+      <p>Question 3: Which is your favorite backend language?</p>
+    </div>
+    <ul class="options">
+      <li class="option">
+        <label> <input type="radio" name="answer3" value="a" /> Python </label>
+      </li>
+      <li class="option">
+        <label>
+          <input type="radio" name="answer3" value="b" /> Node.js
+        </label>
+      </li>
+      <li class="option">
+        <label> <input type="radio" name="answer3" value="c" /> Ruby </label>
+      </li>
+      <li class="option">
+        <label> <input type="radio" name="answer3" value="d" /> Java </label>
+      </li>
+    </ul>
+
+    <div class="question">
+      <p>Question 4: Which is your favorite database?</p>
+    </div>
+    <ul class="options">
+      <li class="option">
+        <label> <input type="radio" name="answer4" value="a" /> MySQL </label>
+      </li>
+      <li class="option">
+        <label>
+          <input type="radio" name="answer4" value="b" /> MongoDB
+        </label>
+      </li>
+      <li class="option">
+        <label> <input type="radio" name="answer4" value="c" /> PostgreSQL </label>
+      </li>
+      <li class="option">
+        <label> <input type="radio" name="answer4" value="d" /> SQLite </label>
+      </li>
+    </ul>
+
+    <div class="question">
+      <p>Question 5: Which is your favorite version control system?</p>
+    </div>
+    <ul class="options">
+      <li class="option">
+        <label> <input type="radio" name="answer5" value="a" /> Git </label>
+      </li>
+      <li class="option">
+        <label>
+          <input type="radio" name="answer5" value="b" /> SVN
+        </label>
+      </li>
+      <li class="option">
+        <label> <input type="radio" name="answer5" value="c" /> Mercurial </label>
+      </li>
+      <li class="option">
+        <label> <input type="radio" name="answer5" value="d" /> Perforce </label>
+      </li>
+    </ul>
+
+    <button  class="submit-btn" onclick="check()">Submit</button>
+  </div>
+
+  <script>
+    function check() {
+      window.location.href = "./last.html";
+    }
+  </script>
+</body>
+
+</html>
